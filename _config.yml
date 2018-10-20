@@ -13,8 +13,8 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
-root: /
+url: https://zhuoyingqiang0624.gitee.io/hexo_log/
+root: /hexo_log/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -62,7 +62,7 @@ tag_map:
 ## Hexo uses Moment.js to parse and display date
 ## You can customize the date format as defined in
 ## http://momentjs.com/docs/#/displaying/format/
-date_format: YYYY-MM-DD
+date_format: YYYY-MM-DD HH:mm:ss
 time_format: HH:mm:ss
 
 # Pagination
@@ -82,5 +82,31 @@ theme: next
 deploy:
   type: git
   repo:     
-    github: git@github.com:zhuoyingqiang/zhuoyingqiang.github.io.git,master
-#    gitee: git@gitee.com:zhuoyingqiang0624/hexo_log.git,master
+    #github: git@github.com:zhuoyingqiang/zhuoyingqiang.github.io.git,master
+    gitee: git@gitee.com:zhuoyingqiang0624/hexo_log.git,master
+#1.baidu_analytics
+#baidu_analytics: 8759f43af3e04f8088e92ff251867945
+
+ #2.站内搜索 Local Search  添加百度/谷歌/本地 自定义站点内容搜索。  需在站点的根目录下执行以下命令：$      npm install hexo-generator-searchdb --save
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000。
+#4.自动生成sitemap  SEO推广,需执行以下命令，安装插件npm install hexo-generator-sitemap --save
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
+
+##5.内容分享服务
+## JiaThis 分享服务
+#jiathis: true
+## 百度分享服务
+#baidushare: true
+## 多说分享服务
+#duoshuo_share: true
+#duoshuo_hotartical: true  # 多说热评文章 true 或者 false
+#duoshuo_shortname: zhuoyingqiang
+## Disqus Disqus插件，如果使用的话
+##disqus_shortname:

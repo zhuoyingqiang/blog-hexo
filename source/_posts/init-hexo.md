@@ -1,8 +1,13 @@
 ---
 title: win10上搭建hexo并发布到github上
 date: 2018-10-14 23:03:01
+modified: 2018-10-15 23:03:01
+comments: true
 tags:
 - hexo
+- github
+categories:
+- hexo教程
 ---
 
 win10上搭建hexo，使用github发布
