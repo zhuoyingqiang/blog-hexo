@@ -14,7 +14,7 @@ timezone:
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://zhuoyingqiang0624.gitee.io/hexo_log/
-root: /hexo_log/
+root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -82,8 +82,8 @@ theme: next
 deploy:
   type: git
   repo:     
-    #github: git@github.com:zhuoyingqiang/zhuoyingqiang.github.io.git,master
-    gitee: git@gitee.com:zhuoyingqiang0624/hexo_log.git,master
+    github: git@github.com:zhuoyingqiang/zhuoyingqiang.github.io.git,master
+#    gitee: git@gitee.com:zhuoyingqiang0624/hexo_log.git,master
 #1.baidu_analytics
 #baidu_analytics: 8759f43af3e04f8088e92ff251867945
 
