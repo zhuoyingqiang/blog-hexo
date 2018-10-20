@@ -14,7 +14,7 @@ timezone:
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://yoursite.com
-root: /
+root: /hexo_log/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -81,5 +81,6 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:zhuoyingqiang/zhuoyingqiang.github.io.git
-  branch: master
+  repo:     
+    github: git@github.com:zhuoyingqiang/zhuoyingqiang.github.io.git,master
+    gitee: git@gitee.com:zhuoyingqiang0624/hexo_log.git,master
